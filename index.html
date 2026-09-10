@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Моё портфолио</title>
 </head>
 <body>
     <header>
-        <h1>Имя Фамилия</h1>
+        <h1>Vitalii Ivanchuk</h1>
         <p>Начинающий Python-разработчик</p>
 
         <nav aria-label="Основная навигация">
@@ -26,20 +27,37 @@
 
         <section id="projects">
             <h2>Проекты</h2>
-            <article>
-                <h3>Консольные программы</h3>
-                <p>Сборник учебных программ: список покупок, учёт расходов, контакты и заметки.</p>
-            </article>
+            <div class="project-cards">
+                <article class="project-card">
+                    <h3>Список покупок</h3>
+                    <p>Консольная программа для добавления, удаления и просмотра покупок.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Учёт расходов</h3>
+                    <p>Программа считает общую сумму, самый большой и средний расход.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Контакты</h3>
+                    <p>Простая записная книжка для сохранения имён и номеров телефонов.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Заметки с сохранением в файл</h3>
+                    <p>Консольные заметки, которые сохраняются и загружаются при следующем запуске.</p>
+                </article>
+            </div>
         </section>
 
         <section id="contacts">
             <h2>Контакты</h2>
-            <p>Напишите мне: <a href="mailto:example@example.com">example@example.com</a></p>
+            <p>Напишите мне: <a href="mailto:vitalik.karton@ukr.net">vitalik.karton@ukr.net</a></p>
         </section>
     </main>
 
     <footer>
-        <p>© 2026 Имя Фамилия</p>
+        <p>© 2026 Vitalii Ivanchuk</p>
     </footer>
 </body>
 </html>

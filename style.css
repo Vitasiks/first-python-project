@@ -103,6 +103,24 @@ main a {
     font-weight: bold;
 }
 
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: var(--accent-dark);
+}
+
 footer {
     color: var(--muted-text);
     text-align: center;
@@ -119,5 +137,9 @@ footer {
 
     h1 {
         font-size: 2rem;
+    }
+
+    .project-cards {
+        grid-template-columns: 1fr;
     }
 }
