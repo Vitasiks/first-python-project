@@ -98,6 +98,24 @@ p {
     margin-bottom: 0;
 }
 
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-list li {
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: #f8fafc;
+    color: var(--accent-dark);
+    font-weight: bold;
+}
+
 main a {
     color: var(--accent-dark);
     font-weight: bold;
