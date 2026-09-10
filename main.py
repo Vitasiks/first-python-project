@@ -1,3 +1,4 @@
+# My first Git change
 shopping_list = ["молоко", "хлеб", "яйца"]
 
 while True:
